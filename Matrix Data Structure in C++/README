@@ -1,0 +1,17 @@
+Name: Het Bharatkumar Patel
+SID: 1742431
+CCID: hetbhara
+AnonID: 1000348298
+CMPUT 275, Winter 2023
+
+Weekly Exercise #5: Matrix Class
+
+Included files: matrix.cpp, matrix.h, we5_test.cpp, Makefile, README
+
+Running instructions: In the directory containing the file Makefile and submission_validator.py, type make to run the code. OR compile all 3 required files matrix.cpp, matrix.h and we5_test.cpp, and then run the output file (.o file) of those 3.
+
+Makefile targets: 
+    - make (we5_solution): compiles all the required files in one executable file 'we5_solution'.
+    - make we5_test.o: creates an object file for we5_test.cpp.
+    - make matrix.o: creates an object file for matrix.cpp and matrix.h.
+    - make clean: Removes all object files and executables.
