@@ -1,0 +1,18 @@
+Name: Het Bharatkumar Patel
+SID: 1742431
+CCID: hetbhara
+AnonID: 1000348298
+CMPUT 275, Winter 2023
+
+Weekly Exercise #3: Reference Manager
+
+Included files: ref_manager.cpp, we3_test.cpp, Makefile, README
+
+Running instructions: In the directory containing the file Makefile and submission_validator.py, type make to run the code. OR compile all 3 required files ref_manager.cpp, ref_manager.h and we3_test.cpp, and then run the output file of those 3.
+
+Makefile targets: 
+    - make (we3_solution): compiles all the required files in one executable file 'we3_solution'.
+    - make we3_test.o: creates an object file for we3_test.cpp.
+    - make ref_manager.o: creates an object file for ref_manager.cpp and ref_manager.h.
+    - make clean: Removes all object files and executables.
+                     
