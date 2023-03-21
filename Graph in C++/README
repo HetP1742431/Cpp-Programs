@@ -1,0 +1,19 @@
+Name: Het Bharatkumar Patel
+SID: 1742431
+CCID: hetbhara
+AnonID: 1000348298
+CMPUT 275, Winter 2023
+
+Weekly Exercise #6: Graph Concepts
+
+Included files: graph_concepts.cpp, digraph.h, digraph.cpp, Makefile, README
+
+Running instructions: In the directory containing the file Makefile and submission_validator.py, type make to run the code. OR compile all 3 required files graph_concepts.cpp, digraph.h and digraph.cpp, and then run the output file (.o file) of those 3. To take the input from a text file, type "output file" < "name of the text file". For example we6_solution < edmonton-roads-2.0.1.txt.
+
+Makefile targets: 
+    - make we6_solution: compiles all the required files in one executable file 'we6_solution'.
+    - make digraph.o: creates an object file for digraph.cpp and digraph.h.
+    - make graph_concepts.o: creates an object file for graph_concepts.cpp.
+    - make clean: Removes all object files and executables.
+
+Notes: Code for function "void dfs(const Digraph &graph, const int u, const int prev, unordered_map<int, int> &reached)" is taken from the lecture 13 in-class discussion.
